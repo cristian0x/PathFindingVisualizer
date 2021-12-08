@@ -1,10 +1,10 @@
 # PathfindingVisualizer
 
-This project uses Java and JavaFX to visualize two pathfinding algorythms: A* and Dijkstra.
+This project uses Java and JavaFX to visualize pathfinding algorithms: A* and Dijkstra.
 
 ## Comparision on empty grid
 
-| A* algorythm | Dijkstra algorythm |
+| A* algorithm | Dijkstra algorithm |
 | :---:      | :---:       |
 | ![aalgorytm czysty](gify/aalgorytm%20czysty.gif)     | ![djikstra czysty](gify/djikstra%20czysty2.gif) |
 
@@ -14,27 +14,27 @@ This project uses Java and JavaFX to visualize two pathfinding algorythms: A* an
 | :---: | :---: |
 | ![kruskal](gify/kruskal.gif) | ![Random low density ](gify/random%20density.gif)|
 
-## RTX ON/OFF - Real Time Experience :) - pick algorithm
-You can move start and end and in the meantime it will calculate path, it may lag on bigger grids. Turn on and pick algorythm with radio button.
+## RTX ON/OFF - Real Time Experience :) - pick an algorithm
+You can move start and end nodes and in the meantime it will calculate path. Turn on and pick an algorithm with a radio button.
 
-| A* algorythm | Dijkstra algorythm |
+| A* algorithm | Dijkstra algorithm |
 | :---:      | :---:       |
 | ![aalgorytm rtx](gify/aalgorytm%20rtx.gif)     | ![djikstra rtx](gify/djikstra%20rtx.gif) |
 
 ## Draw your own mazes
-Just hold ctrl and draw walls, alt and shift to change location of start and end.
+Just hold ctrl and draw walls, alt and shift to change location of start and end nodes respectively.
 
 ![draw](gify/draw.gif)
 
-## Visited and path count
-Counts how many squares were visited and path length.
+## Visited nodes and path count
+Counts visited squares and path length.
 
 ## Clear
-Just clear grid.
+Just clears the grid.
 
 ## Change options
-You can change few options: random density, speed, grid size( bigger = slower :) ).
+You can change a few options: random density, speed, grid size.
 
 ## Generate Data
-Logs map(x, y, isWall, isStart, isEnd, Colour) to file.
+Logs map(x, y, isWall, isStart, isEnd, Colour) to a file.
 
